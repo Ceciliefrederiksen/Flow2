@@ -1,0 +1,524 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff&display=swap');
+
+
+body {
+margin: 0;
+}
+/* Navigation */
+.simple {
+  display: flex;
+  justify-content: space-between;
+  font-family: Montserrat;
+  padding: 15px;
+  /* position: fixed; */
+}
+
+.simple a {
+  text-decoration: none;
+  color: #8cb3d9;
+}
+
+.simple a:hover {
+  color: #193366;
+}
+
+.simple nav {
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+}
+
+.logo {
+  font-family: 'Herr Von Muellerhoff', cursive;
+  font-size: 50px;
+}
+/* Baggrundsbillede */
+.forside-billede {
+  background-image: url("billeder-interesser/badebro3-edit.jpg");
+  background-color: #cccccc;
+  height: 730px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
+
+.forside-tekst {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  width:50%;
+}
+
+/* Tekst på forside */
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 100;
+  font-size: 35px;
+  color: #9fbfdf;
+  text-shadow: 1px 1px #d3def8;
+  margin-top: 15%;
+}
+
+p {
+  font-family: 'Montserrat';
+  font-weight: 100;
+  margin: 1%;
+  color: #8cb3d9;
+  text-shadow: #d9e6f2;
+  text-align: inherit;
+}
+
+/* Portfolio */
+
+
+/* Hovor effekt på billeder*/
+
+/* Billede 1*/
+
+.infobox-one {
+  position: relative;
+}
+
+.p-one {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-one:hover .overlay {
+  opacity: 1;
+}
+
+.infotekst-one {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+/* Billede 2*/
+.infobox-two {
+  position: relative;
+}
+
+.p-two {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-two:hover .overlay2 {
+  opacity: 1;
+}
+
+.infotekst-two {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+/* Billede 3*/
+.infobox-tree {
+  position: relative;
+}
+
+.p-tree {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-tree:hover .overlay3 {
+  opacity: 1;
+}
+
+.infotekst-tree {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+/* Billede 4*/
+.infobox-four {
+  position: relative;
+}
+
+.p-four {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-four:hover .overlay4 {
+  opacity: 1;
+}
+
+.infotekst-four {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+/* Billede 5*/
+.infobox-five {
+  position: relative;
+}
+
+.p-five {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-five:hover .overlay5 {
+  opacity: 1;
+}
+
+.infotekst-five {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+/* Billede 6*/
+.infobox-six {
+  position: relative;
+}
+
+.p-six {
+  display: block;
+  width: 300px;
+  height: auto;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-six:hover .overlay6 {
+  opacity: 1;
+}
+
+.infotekst-six {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+/* Billede 7*/
+.infobox-seven {
+  position: relative;
+}
+
+.p-seven {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay7 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-seven:hover .overlay7 {
+  opacity: 1;
+}
+
+.infotekst-seven {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+/* Billede 8*/
+/*
+.infobox-eight {
+  position: relative;
+}
+
+.p-eight {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay8 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-eight:hover .overlay8 {
+  opacity: 1;
+}
+
+.infotekst-eight {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+
+
+/* Billede 9*/
+/*
+.infobox-nine {
+  position: relative;
+}
+
+.p-nine {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.overlay9 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  opacity: 0;
+  transition: .6s ease;
+  background-color: rgba(00, 00, 00, 0.6);
+}
+
+.infobox-nine:hover .overlay9 {
+  opacity: 1;
+}
+
+.infotekst-nine {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Montserrat'
+}
+*/
+
+/* billede opsætning */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+/*margin: 50px; */
+  margin-top: -50px;
+  z-index: 2;
+  position: absolute;
+  margin-left: 156px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column, .column2, .column3{
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 26%;
+  padding: 0 4px;
+  margin-left: 8px;
+  animation: slide_up 4s;
+}
+
+@keyframes slide_up {
+  0%{
+    transform: translateY(250px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.column2 {
+  margin-top: 15px;
+}
+
+.column3 {
+  margin-top: -5px;
+}
+
+.column, .column2  img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 300px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column, .column2, .column3 {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, .column2, .column3 {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
